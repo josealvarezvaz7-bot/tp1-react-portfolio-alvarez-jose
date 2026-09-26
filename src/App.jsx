@@ -15,7 +15,7 @@ const App = () => {
       <Hero nombre={perfil.nombre} rol={perfil.rol} />
       <About objetivo={perfil.objetivo} descripcion={perfil.descripcion} />
       <Skills habilidades={habilidades} />
-      <Projects />
+      <Projects proyectos={proyectos} />
       <Footer />
     </div>
   );
