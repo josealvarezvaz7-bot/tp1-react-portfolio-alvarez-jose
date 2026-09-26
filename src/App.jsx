@@ -16,7 +16,11 @@ const App = () => {
       <About objetivo={perfil.objetivo} descripcion={perfil.descripcion} />
       <Skills habilidades={habilidades} />
       <Projects proyectos={proyectos} />
-      <Footer />
+      <Footer
+        nombre={perfil.nombre}
+        email={perfil.email}
+        github={perfil.github}
+      />
     </div>
   );
 };

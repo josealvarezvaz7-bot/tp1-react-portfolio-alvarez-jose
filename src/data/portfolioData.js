@@ -38,6 +38,35 @@ const proyectos = [
     stack: ["React", "useState", "CSS"],
     link: "#",
   },
+  {
+    id: "p3",
+    nombre: "ControlStock",
+    resumen:
+      "Aplicación para registrar productos y controlar el stock disponible.",
+    detalle:
+      "Proyecto pensado para practicar altas, bajas y modificaciones de productos. Permite registrar artículos, actualizar cantidades y consultar el stock disponible.",
+    stack: ["React", "JavaScript", "CSS"],
+    link: "#",
+  },
+  {
+    id: "p4",
+    nombre: "BuscadorPeliculas",
+    resumen:
+      "Buscador de películas que muestra información obtenida desde una API.",
+    detalle:
+      "Permite buscar películas por nombre y visualizar datos como título, año y descripción. Lo desarrollé para practicar peticiones a APIs y renderizado condicional.",
+    stack: ["React", "Fetch", "API pública"],
+    link: "#",
+  },
+  {
+    id: "p5",
+    nombre: "AgendaContactos",
+    resumen: "Agenda simple para agregar, visualizar y eliminar contactos.",
+    detalle:
+      "Aplicación creada para practicar formularios controlados, manejo de estado y renderizado de listas dinámicas en React.",
+    stack: ["React", "useState", "CSS"],
+    link: "#",
+  },
 ];
 
 export { perfil, habilidades, proyectos };

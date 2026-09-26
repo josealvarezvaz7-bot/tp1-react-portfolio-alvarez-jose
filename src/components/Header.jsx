@@ -6,9 +6,9 @@ const Header = ({ nombre }) => {
     <header className="header">
       <nav className="navegador">
         <a href="#">Inicio</a>
-        <a href="#about">Sobre mi</a>
-        <a href="#skills">Habilidades</a>
-        <a href="#projects">Proyectos</a>
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#footer">Contacto</a>
       </nav>
 
