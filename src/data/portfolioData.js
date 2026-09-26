@@ -35,3 +35,5 @@ const proyectos = [
     link: "#",
   },
 ];
+
+export { perfil, habilidades, proyectos };

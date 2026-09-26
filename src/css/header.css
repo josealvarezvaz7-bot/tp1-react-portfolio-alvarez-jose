@@ -1,0 +1,43 @@
+/* Contenedor principal */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #0a192f;
+  color: white;
+
+  padding: 20px 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Navegador */
+.navegador {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Enlaces */
+.navegador a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.navegador a:hover {
+  color: #64ffda;
+}
+
+/* Nombre ubicado a la derecha */
+.header-nombre h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #64ffda;
+  font-weight: bold;
+}
