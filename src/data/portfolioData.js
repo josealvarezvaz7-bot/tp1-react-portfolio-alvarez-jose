@@ -3,6 +3,10 @@ const perfil = {
   rol: "Desarrollador full stack",
   email: "josealvarezvaz7@gmail.com",
   github: "https://github.com/josealvarezvaz7-bot",
+  objetivo:
+    "Continuar creciendo como desarrollador, fortalecer mis conocimientos en tecnologías web y adquirir experiencia en el desarrollo de software.",
+  descripcion:
+    "Soy una persona interesada en la programación y la tecnología, con motivación por aprender y desarrollar nuevas habilidades en el área del desarrollo de software. Me interesa la creación de aplicaciones web, la resolución de problemas y el uso de herramientas tecnológicas para desarrollar soluciones digitales.",
 };
 
 const habilidades = [

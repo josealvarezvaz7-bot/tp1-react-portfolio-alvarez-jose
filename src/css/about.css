@@ -1,0 +1,71 @@
+/* Sección Sobre mí */
+.about {
+  padding: 80px 10%;
+  background-color: #112240;
+  color: #ccd6f6;
+}
+
+/* Contenedor */
+.about-contenido {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Título */
+.about h2 {
+  font-size: 32px;
+  color: #ccd6f6;
+  margin-bottom: 30px;
+}
+
+.about h2 span {
+  color: #64ffda;
+}
+
+/* Descripción */
+.about-descripcion {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #a8b2d1;
+  margin-bottom: 35px;
+}
+
+/* Objetivo profesional */
+.about-objetivo {
+  padding: 25px;
+  border-left: 3px solid #64ffda;
+  background-color: #0a192f;
+  border-radius: 0 8px 8px 0;
+}
+
+.about-objetivo h3 {
+  color: #64ffda;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.about-objetivo p {
+  color: #a8b2d1;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 6%;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about-descripcion {
+    font-size: 16px;
+  }
+
+  .about-objetivo {
+    padding: 20px;
+  }
+}
