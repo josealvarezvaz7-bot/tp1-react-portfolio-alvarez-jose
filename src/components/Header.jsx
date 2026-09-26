@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/header.css";
 
-const Header = ({ nombre, rol }) => {
+const Header = ({ nombre }) => {
   return (
     <header className="header">
       <nav className="navegador">

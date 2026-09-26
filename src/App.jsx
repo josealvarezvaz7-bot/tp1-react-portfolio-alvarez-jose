@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <Header nombre={perfil.nombre} rol={perfil.rol} />
-      <Hero />
+      <Hero nombre={perfil.nombre} rol={perfil.rol} />
       <About />
       <Skills />
       <Projects />
