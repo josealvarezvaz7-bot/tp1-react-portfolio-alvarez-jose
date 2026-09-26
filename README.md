@@ -1,16 +1,56 @@
-# React + Vite
+Portfolio — José Miguel Alvarez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trabajo Práctico Nº1 — "Mi Portfolio en React" UTN Facultad Regional Tucumán
 
-Currently, two official plugins are available:
+🧾 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Portfolio personal de una sola página (single page) construido con React y Vite. Presenta mi perfil como estudiante de programación, mi stack actual, algunos proyectos y mis datos de contacto.
 
-## React Compiler
+🛠️ Tecnologías utilizadas
+React 18
+Vite
+JavaScript (JSX)
+CSS puro (sin frameworks de estilos)
+✅ Requisitos previos
+Node.js versión 18 o superior
+npm (viene incluido con Node.js)
+📦 Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clonar el repositorio e instalar las dependencias:
 
-## Expanding the ESLint configuration
+bash
+git clone https://github.com/josealvarezvaz7-bot/tp1-react-portfolio-alvarez-jose.git
+cd tp1-react-portfolio-alvarez-jose
+npm install
+▶️ Ejecución en desarrollo
+bash
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esto levanta el proyecto en http://localhost:5173. Cualquier cambio en los archivos de src/ se refleja automáticamente en el navegador.
+
+📜 Scripts disponibles
+Comando Descripción
+npm run dev Levanta el servidor de desarrollo con recarga en vivo
+npm run build Genera la versión de producción en la carpeta dist/
+npm run preview Sirve localmente la build de producción para probarla
+📁 Estructura del proyecto
+src/
+├── App.jsx # Componente raíz, arma la página con los demás
+├── main.jsx # Punto de entrada de React
+├── styles.css # Estilos globales
+├── data/
+│ └── portfolioData.js # Datos de perfil, habilidades y proyectos
+└── components/
+├── Header.jsx # Navegación + menú mobile (useState)
+├── Hero.jsx # Presentación inicial
+├── About.jsx # Sección "Sobre mí"
+├── Skills.jsx # Stack de tecnologías (map sobre array)
+├── Projects.jsx # Lista de proyectos (map sobre array)
+└── Footer.jsx # Datos de contacto
+
+👤 Autor
+
+José Miguel Alvarez Estudiante de Programación — Universidad
+
+📧 Email: josealvarezvaz7@gmail.com
+🐙 GitHub: @josealvarezvaz7-bot
